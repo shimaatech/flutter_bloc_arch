@@ -1,12 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:bloc/bloc.dart';
+import 'package:flutter_bloc_arch/flutter_bloc_arch.dart';
 
 import 'app/app.dart';
 
 void main() {
   BlocSupervisor.delegate = SimpleBlocDelegate();
+  StateBuilder.builderConfig = AppStateBuilderConfig();
   runApp(MoviesApp());
 }
+
+
+class AppStateBuilderConfig extends StateBuilderConfig {
+  @override
+  Widget onError(BuildContext context, StateError error) {
+    return Text(error.message);
+  }
+
+  @override
+  Widget onLoading(BuildContext context, StateLoading loading) {
+    return Center(child: CircularProgressIndicator(),);
+  }
+
+  @override
+  Widget onOther(BuildContext context, BlocState state) {
+    return Center(child: CircularProgressIndicator(),);
+  }
+}
+
 
 class SimpleBlocDelegate extends BlocDelegate {
   @override
