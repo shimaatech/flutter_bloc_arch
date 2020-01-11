@@ -1,7 +1,5 @@
 library flutter_bloc_arch;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/base_bloc.dart';
+export 'src/component.dart';
+export 'src/state_builder.dart';
