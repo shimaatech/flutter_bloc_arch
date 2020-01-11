@@ -17,6 +17,14 @@ It allows developers to structure their app into components, where each componen
 
 ## Library contents
 
+The library provides the following components in order to help structuring and manging the state
+of a flutter app:
+- `BaseBloc`: Used for managing the state of an app component
+- `Componen`: Describes an app component. Can be a page or part of page. Each component has its
+own bloc. The `Component` describes how to create the bloc and the component's view
+- `ComponentView`: The component's view. Has direct access to the bloc created by the `Component`
+and uses `StateBuilder` in order to build widgets according to the bloc's states
+
 ### `BaseBloc`
 
 The `BaseBloc` class is the class that each bloc should inherit from. It inherits from the `Bloc`
