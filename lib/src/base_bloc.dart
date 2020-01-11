@@ -116,7 +116,9 @@ abstract class BaseBloc<E extends BlocEvent, S extends BlocState>
 
   @override
   @deprecated
-  void add(BlocEvent event) {
+  /// This method is deprecated. Use the [event] method instead for adding
+  /// events to the bloc
+  void add(BlocEvent e) {
     throw Exception(
         "Using the add method is not allowed. Use the event() method instead");
   }
