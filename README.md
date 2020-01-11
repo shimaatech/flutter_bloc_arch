@@ -363,7 +363,7 @@ In the `_buildFavoriteIcon()` method of the `movieItemView`, we need to use `sta
 You can set default builders for onLoading, onError and onOther.  
 To do this, you need to extend `StateBuilderConfig` and pass an instance of it to `StateBuilder.builderConfig`.  
 
-**Example:
+**Example**:
 
 ```dart
 class AppStateBuilderConfig extends StateBuilderConfig {

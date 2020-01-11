@@ -4,13 +4,23 @@ An example of using the flutter_bloc_arch library
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This example demonstrates how to use the flutter_bloc_arch library by building a simple app
+for showing a movies list and adding them to favorite list. For more info please refer to the 
+library [repository] or to the [docs]
 
-A few resources to get you started if this is your first Flutter project:
+**The app is fully documented, so that there is almost no need to explain anything here**.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## App contents
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**The app contains 2 pages**:
+- Movies Page: Shows a list of all the available movies in the repository with the ability to add
+movies to the favorite list and to filter them according to the genre.
+- Favorite Movies Page: Shows the favorite movies with the ability to remove them from the favorite
+list
+
+**The app contains 4 `Components`**:
+- A Component for the `Movies Page`
+- A Component for the `Favorite Movies Page`
+- A Component for the `App Home` (A home page wrapper)
+- A shared component (`MovieItem`) that is used by both the `Movies Page` and the `Favorite Movies Page`
+ 
