@@ -10,6 +10,10 @@ library [repository] or to the [docs]
 
 **The app is fully documented, so that there is almost no need to explain anything here**.
 
+
+![Movies App demo](https://media.giphy.com/media/eIyX1CUFzQkgjV8IMG/giphy.gif)
+
+
 ## App contents
 
 **The app contains 2 pages**:

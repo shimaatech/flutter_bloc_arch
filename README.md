@@ -8,6 +8,13 @@ For more info please check the [docs]
 This library is built upon the flutter [bloc](https://pub.dev/packages/bloc) library.
 It allows developers to structure their app into components, where each component has its own bloc.
 
+## Example
+
+[example](https://github.com/shimaatech/flutter_bloc_arch/tree/master/example)
+
+![Movies App demo](https://media.giphy.com/media/eIyX1CUFzQkgjV8IMG/giphy.gif)
+
+
 ## Library contents
 
 ### `BaseBloc`
