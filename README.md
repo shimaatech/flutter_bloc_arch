@@ -401,6 +401,10 @@ void main() {
 ```
 
 ## Examples
+
 - [Simple Movies App](https://github.com/shimaatech/flutter_bloc_arch/tree/master/example)
+
+![Movies App demo](https://media.giphy.com/media/eIyX1CUFzQkgjV8IMG/giphy.gif)
+
 
 For more info please refer to the [docs]
