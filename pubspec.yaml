@@ -1,6 +1,6 @@
 name: flutter_bloc_arch
 description: A library that helps structuring flutter apps using the BLoC library
-version: 0.0.1
+version: 0.0.2
 author: Morad Morad (morad@shimaatech.com)
 homepage: https://github.com/shimaatech/flutter_bloc_arch.git
 
@@ -13,6 +13,7 @@ dependencies:
 
   equatable: ^1.0.2
   flutter_bloc: ^3.1.0
+  bloc: ^3.0.0
 
 dev_dependencies:
   flutter_test:
